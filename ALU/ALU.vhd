@@ -13,9 +13,6 @@ end ALU ;
 architecture calculation of ALU is
 signal Result: std_logic_vector(7 downto 0);
 
--- A = 37, A(base2)=00100101
--- B = 29, B(base2)=00011101
-
 begin
 process ( clk, res )
 begin

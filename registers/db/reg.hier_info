@@ -1,0 +1,35 @@
+|reg
+A[0] => Q[0]~reg0.DATAIN
+A[1] => Q[1]~reg0.DATAIN
+A[2] => Q[2]~reg0.DATAIN
+A[3] => Q[3]~reg0.DATAIN
+A[4] => Q[4]~reg0.DATAIN
+A[5] => Q[5]~reg0.DATAIN
+A[6] => Q[6]~reg0.DATAIN
+A[7] => Q[7]~reg0.DATAIN
+res => Q[0]~reg0.ACLR
+res => Q[1]~reg0.ACLR
+res => Q[2]~reg0.ACLR
+res => Q[3]~reg0.ACLR
+res => Q[4]~reg0.ACLR
+res => Q[5]~reg0.ACLR
+res => Q[6]~reg0.ACLR
+res => Q[7]~reg0.ACLR
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,28 @@
+|FSM
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+data_in => yfsm.OUTPUTSELECT
+clk => yfsm~9.DATAIN
+reset => yfsm~11.DATAIN
+student_id[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+student_id[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+student_id[2] <= student_id[2].DB_MAX_OUTPUT_PORT_TYPE
+student_id[3] <= student_id[3].DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+current_state[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

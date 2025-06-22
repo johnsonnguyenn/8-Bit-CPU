@@ -1,7 +1,5 @@
 # 8-Bit-CPU Design
 
----
-
 ## Description
 An 8-bit CPU design was structured to display the fundamentals of digital system design. The CPU integrates key components such as registers, a 3-to-8 decoder, a finite state machine, and three unique Arithmetic Logic Units (ALU). The CPU also includes data and control flows synchronized within a system clock. Each component was constructed in VHDL, synthesized in Quartus, and represented on an Altera Cyclone II FPGA board.
 
@@ -35,7 +33,7 @@ An 8-bit CPU design was structured to display the fundamentals of digital system
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c1594c9d-7ac7-47a5-b91b-c03d17dfe8c7" alt="image">
 </div>
-  
+-
 <b>Simulation:</b> All testing was verified using VHDL's waveforms to ensure timing was correct<br> 
 <b>Seven Segment Display:</b> All results were displayed in a seven segment display, which showed operation outputs and digits <br>
 <b>Functionality:</b> Implemented specific ALU operations such as bit manipulation, maximum/minimum value determination

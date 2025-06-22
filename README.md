@@ -22,7 +22,7 @@ An 8-bit CPU design was structured to display the fundamentals of digital system
 - Enabled only under certain conditions to optimize control logic
 
 <div align="center">
-  <img src="(https://github.com/user-attachments/assets/e6b47030-8900-4a8b-9c89-567237da08cb" alt="image">
+  <img src="(https://github.com/user-attachments/assets/46f0f065-3c30-4e30-a32e-752cc8cfea2e" alt="image">
 </div>
 
 ![image](https://github.com/user-attachments/assets/46f0f065-3c30-4e30-a32e-752cc8cfea2e)

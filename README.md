@@ -22,7 +22,15 @@ An 8-bit CPU design was structured to display the fundamentals of digital system
 
 
 **3-to-8 Decoder** 
-- 
+- Decodes 3-bit opcodes into control signals
+- Decoder is used to select specific operations for ALUs
+- Enabled only under certain conditions to optimize control logic
+
+<div align="center">
+  <img src="(https://github.com/user-attachments/assets/06e436d7-940c-481f-bf31-edcb973591e5" alt="image">
+</div>
+
+
 <b>Simulation:</b> All testing was verified using VHDL's waveforms to ensure timing was correct<br> 
 <b>Seven Segment Display:</b> All results were displayed in a seven segment display, which showed operation outputs and digits <br>
 <b>Functionality:</b> Implemented specific ALU operations such as bit manipulation, maximum/minimum value determination

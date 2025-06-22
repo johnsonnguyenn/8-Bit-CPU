@@ -16,6 +16,10 @@ An 8-bit CPU design was structured to display the fundamentals of digital system
   <img src="https://github.com/user-attachments/assets/5e27d4aa-2c93-4a2a-9d14-3b9f8e054918" alt="image">
 </div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/362f3e39-18ff-457c-bb7d-3791947afcef" alt="image">
+</div>
+
 
 **3-to-8 Decoder** 
 - 
